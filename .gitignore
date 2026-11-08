@@ -1,0 +1,33 @@
+
+# Archivos de configuración de IntelliJ IDEA y Android Studio
+*.iml
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Archivos temporales de Gradle
+.gradle/
+
+# Configuración local del SDK de Android
+/local.properties
+
+# Carpetas de compilación
+**/build/
+
+# Archivos de captura
+/captures/
+
+# Compilación nativa
+.externalNativeBuild/
+.cxx/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuraciones locales de Android Studio
+/.idea/
+

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+        <!-- LOGO DE FOOTBALL STORE -->
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/descripcion_logo" />
+
+        <!-- NOMBRE DE LA TIENDA -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/titulo_tienda"
+            android:textColor="@color/neon_green"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- TÍTULO DEL CATÁLOGO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitulo_coleccion"
+            android:textColor="@color/text_white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <!-- DESCRIPCIÓN DEL CATÁLOGO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_coleccion"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- PRODUCTO 1: REAL MADRID -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="@color/card_dark"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/camiseta1"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/descripcion_imagen" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto1_nombre"
+                android:textColor="@color/text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto1_descripcion"
+                android:textColor="@color/text_gray"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto1_precio"
+                android:textColor="@color/neon_green"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/btnAgregar1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/boton_agregar_carrito"
+                android:textColor="@color/text_dark"
+                android:backgroundTint="@color/neon_green"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- PRODUCTO 2: PSG -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="@color/card_dark"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/camiseta2"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/descripcion_imagen" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto2_nombre"
+                android:textColor="@color/text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto2_descripcion"
+                android:textColor="@color/text_gray"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto2_precio"
+                android:textColor="@color/neon_green"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/btnAgregar2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/boton_agregar_carrito"
+                android:textColor="@color/text_dark"
+                android:backgroundTint="@color/neon_green"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- PRODUCTO 3: MANCHESTER UNITED -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="@color/card_dark"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/camiseta3"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/descripcion_imagen" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto3_nombre"
+                android:textColor="@color/text_white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto3_descripcion"
+                android:textColor="@color/text_gray"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/producto3_precio"
+                android:textColor="@color/neon_green"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/btnAgregar3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/boton_agregar_carrito"
+                android:textColor="@color/text_dark"
+                android:backgroundTint="@color/neon_green"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- BOTÓN VOLVER AL INICIO -->
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:maxWidth="320dp"
+            android:layout_gravity="center"
+            android:text="@string/boton_volver"
+            android:textColor="@color/neon_green"
+            android:backgroundTint="@color/card_dark"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

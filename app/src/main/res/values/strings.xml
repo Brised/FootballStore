@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Información general de la aplicación -->
+    <string name="app_name">Football Store</string>
+
+    <!-- Pantalla principal -->
+    <string name="titulo_tienda">FOOTBALL STORE</string>
+    <string name="descripcion_logo">Logotipo de Football Store</string>
+    <string name="descripcion_imagen">Imagen de camiseta de fútbol</string>
+
+    <string name="frase_principal">VIVE TU PASIÓN\nPOR EL FÚTBOL</string>
+    <string name="descripcion_principal">Descubre las camisetas de tus equipos favoritos y lleva tu pasión por el fútbol a todas partes.</string>
+    <string name="boton_explorar">EXPLORAR COLECCIÓN</string>
+
+    <!-- Pantalla de colección -->
+    <string name="subtitulo_coleccion">NUESTRA COLECCIÓN</string>
+    <string name="descripcion_coleccion">Equipaciones para los verdaderos aficionados</string>
+
+    <!-- Producto 1: Real Madrid -->
+    <string name="producto1_nombre">REAL MADRID - HOME 2026/27</string>
+    <string name="producto1_descripcion">Camiseta blanca con detalles modernos que representan la elegancia y tradición del club. Ideal para los seguidores del equipo merengue.</string>
+    <string name="producto1_precio">Precio: $45.00</string>
+
+    <!-- Producto 2: PSG -->
+    <string name="producto2_nombre">PSG - HOME 2025/26</string>
+    <string name="producto2_descripcion">Camiseta azul marino con detalles rojos y blancos, inspirada en la identidad parisina. Un diseño moderno para los aficionados del Paris Saint-Germain.</string>
+    <string name="producto2_precio">Precio: $40.00</string>
+
+    <!-- Producto 3: Manchester United -->
+    <string name="producto3_nombre">MANCHESTER UNITED - HOME 2025/26</string>
+    <string name="producto3_descripcion">Camiseta roja con detalles blancos y negros, inspirada en los colores históricos de los Red Devils. Un diseño deportivo que representa la historia y pasión del club inglés.</string>
+    <string name="producto3_precio">Precio: $40.00</string>
+
+    <!-- Botones y mensajes -->
+    <string name="boton_agregar_carrito">AGREGAR AL CARRITO</string>
+    <string name="boton_volver">VOLVER AL INICIO</string>
+</resources>
