@@ -68,7 +68,7 @@
                 android:layout_height="230dp"
                 android:src="@drawable/camiseta1"
                 android:scaleType="fitCenter"
-                android:contentDescription="@string/descripcion_imagen" />
+                android:contentDescription="@string/descripcion_real_madrid" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -80,8 +80,10 @@
                 android:layout_marginTop="12dp" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxWidth="480dp"
                 android:text="@string/producto1_descripcion"
                 android:textColor="@color/text_gray"
                 android:textSize="14sp"
@@ -98,9 +100,12 @@
 
             <Button
                 android:id="@+id/btnAgregar1"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="12dp"
+                android:minWidth="240dp"
+                android:maxWidth="320dp"
                 android:text="@string/boton_agregar_carrito"
                 android:textColor="@color/text_dark"
                 android:backgroundTint="@color/neon_green"
@@ -122,7 +127,7 @@
                 android:layout_height="230dp"
                 android:src="@drawable/camiseta2"
                 android:scaleType="fitCenter"
-                android:contentDescription="@string/descripcion_imagen" />
+                android:contentDescription="@string/descripcion_psg" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -134,8 +139,10 @@
                 android:layout_marginTop="12dp" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxWidth="480dp"
                 android:text="@string/producto2_descripcion"
                 android:textColor="@color/text_gray"
                 android:textSize="14sp"
@@ -152,9 +159,12 @@
 
             <Button
                 android:id="@+id/btnAgregar2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="12dp"
+                android:minWidth="240dp"
+                android:maxWidth="320dp"
                 android:text="@string/boton_agregar_carrito"
                 android:textColor="@color/text_dark"
                 android:backgroundTint="@color/neon_green"
@@ -176,7 +186,7 @@
                 android:layout_height="230dp"
                 android:src="@drawable/camiseta3"
                 android:scaleType="fitCenter"
-                android:contentDescription="@string/descripcion_imagen" />
+                android:contentDescription="@string/descripcion_manchester" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -188,8 +198,10 @@
                 android:layout_marginTop="12dp" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxWidth="480dp"
                 android:text="@string/producto3_descripcion"
                 android:textColor="@color/text_gray"
                 android:textSize="14sp"
@@ -206,9 +218,12 @@
 
             <Button
                 android:id="@+id/btnAgregar3"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="12dp"
+                android:minWidth="240dp"
+                android:maxWidth="320dp"
                 android:text="@string/boton_agregar_carrito"
                 android:textColor="@color/text_dark"
                 android:backgroundTint="@color/neon_green"
@@ -219,15 +234,16 @@
         <!-- BOTÓN VOLVER AL INICIO -->
         <Button
             android:id="@+id/btnVolver"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="55dp"
-            android:maxWidth="320dp"
             android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:minWidth="240dp"
+            android:maxWidth="320dp"
             android:text="@string/boton_volver"
             android:textColor="@color/neon_green"
             android:backgroundTint="@color/card_dark"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp" />
+            android:textStyle="bold" />
 
     </LinearLayout>
 

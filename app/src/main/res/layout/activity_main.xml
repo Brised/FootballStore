@@ -11,6 +11,7 @@
         android:gravity="center_horizontal"
         android:padding="24dp">
 
+        <!-- LOGO DE FOOTBALL STORE -->
         <ImageView
             android:layout_width="75dp"
             android:layout_height="75dp"
@@ -19,6 +20,7 @@
             android:scaleType="fitCenter"
             android:contentDescription="@string/descripcion_logo" />
 
+        <!-- NOMBRE DE LA TIENDA -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,16 +31,18 @@
             android:textStyle="bold"
             android:gravity="center" />
 
+        <!-- FRASE PRINCIPAL -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:text="@string/frase_principal"
             android:textColor="@color/text_white"
-            android:textSize="27sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:gravity="center" />
 
+        <!-- DESCRIPCIÓN DE LA TIENDA -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,6 +52,7 @@
             android:textSize="15sp"
             android:gravity="center" />
 
+        <!-- IMAGEN PRINCIPAL DE LA CAMISETA -->
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -56,16 +61,19 @@
             android:padding="12dp"
             android:src="@drawable/camiseta_futbol"
             android:scaleType="fitCenter"
-            android:contentDescription="@string/descripcion_imagen" />
+            android:contentDescription="@string/descripcion_camiseta_destacada" />
 
+        <!-- BOTÓN PARA ABRIR EL CATÁLOGO -->
         <Button
             android:id="@+id/btnExplorar"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="56dp"
+            android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="@color/neon_green"
+            android:minWidth="240dp"
             android:maxWidth="320dp"
+            android:backgroundTint="@color/neon_green"
             android:text="@string/boton_explorar"
             android:textColor="@color/text_dark"
             android:textStyle="bold" />
